@@ -356,19 +356,16 @@ const createGraffiti =()=>{
   console.log(randTag)
   let tag;
   const tagTexture1 = textureLoader.load('/teapot1.png')
-  tagTexture1.repeat=false
   const tagMaterial1 = new THREE.MeshStandardMaterial({map:tagTexture1})
   tagMaterial1.transparent=true
   // tagMaterial1.alphaMap=tagTexture1
 
   const tagTexture2 = textureLoader.load('/teapot2.png')
-  tagTexture1.repeat=false
   const tagMaterial2 = new THREE.MeshStandardMaterial({map:tagTexture2})
   tagMaterial2.transparent=true
   // tagMaterial2.alphaMap=tagTexture2
 
   const tagTexture3 = textureLoader.load('/teapots3.png')
-  tagTexture3.repeat=false
   const tagMaterial3 = new THREE.MeshStandardMaterial({map:tagTexture3})
   tagMaterial3.transparent=true
   // tagMaterial3.alphaMap=tagTexture3
